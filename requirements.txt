@@ -1,0 +1,8 @@
+kaggle
+numpy
+pandas
+pyprojroot==0.3.0
+scikit_learn==1.4.2
+setuptools
+ydata_profiling
+tabulate
