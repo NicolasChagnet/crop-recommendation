@@ -1,7 +1,3 @@
-download_data:
-	@echo "Downloading dataset"
-	@python3 -c "from src.data.load_data import download_raw_data; download_raw_data()"
-
 generate_split:
 	@echo "Making renamed version"
 	@python3 -c "from src.data.load_data import create_renamed_data; create_renamed_data()"

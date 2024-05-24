@@ -1,31 +1,31 @@
 # Mean results per algorithm
-| name               |    fit_time |   score_time |   test_score |   train_score |
-|:-------------------|------------:|-------------:|-------------:|--------------:|
-| RandomForest       | 0.197909    |   0.0171672  |     0.999971 |      1        |
-| NaiveBayesGaussian | 0.00368543  |   0.0137006  |     0.999937 |      0.999957 |
-| DecisionTree       | 0.00582471  |   0.00901918 |     0.991475 |      1        |
-| Dummy              | 0.000681543 |   0.00869675 |     0.5      |      0.5      |
+| name               |   fit_time |   score_time |   test_score |   train_score |
+|:-------------------|-----------:|-------------:|-------------:|--------------:|
+| RandomForest       | 0.180784   |   0.0152511  |     0.999982 |      1        |
+| NaiveBayesGaussian | 0.00245142 |   0.0112256  |     0.999937 |      0.999957 |
+| DecisionTree       | 0.00614009 |   0.00991092 |     0.992534 |      1        |
+| Dummy              | 0.00056591 |   0.00925832 |     0.5      |      0.5      |
 
 # Iterations
 |    |    fit_time |   score_time |   test_score |   train_score | name               | metric               |
 |---:|------------:|-------------:|-------------:|--------------:|:-------------------|:---------------------|
-|  0 | 0.000648975 |   0.00933385 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
-|  1 | 0.000864506 |   0.0087781  |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
-|  2 | 0.000766277 |   0.00889111 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
-|  3 | 0.0006001   |   0.00824523 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
-|  4 | 0.000527859 |   0.00823545 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
-|  0 | 0.00595069  |   0.00925183 |     0.992901 |      1        | DecisionTree       | roc_auc_ovr_weighted |
-|  1 | 0.00574565  |   0.00950933 |     0.99287  |      1        | DecisionTree       | roc_auc_ovr_weighted |
-|  2 | 0.00583148  |   0.00885653 |     0.985803 |      1        | DecisionTree       | roc_auc_ovr_weighted |
-|  3 | 0.00613666  |   0.00873971 |     0.985803 |      1        | DecisionTree       | roc_auc_ovr_weighted |
-|  4 | 0.00545907  |   0.00873852 |     1        |      1        | DecisionTree       | roc_auc_ovr_weighted |
-|  0 | 0.181288    |   0.0143037  |     0.999988 |      1        | RandomForest       | roc_auc_ovr_weighted |
-|  1 | 0.20527     |   0.0190055  |     0.99988  |      1        | RandomForest       | roc_auc_ovr_weighted |
-|  2 | 0.183202    |   0.0139043  |     0.999988 |      1        | RandomForest       | roc_auc_ovr_weighted |
-|  3 | 0.186867    |   0.0194833  |     1        |      1        | RandomForest       | roc_auc_ovr_weighted |
-|  4 | 0.232916    |   0.0191391  |     1        |      1        | RandomForest       | roc_auc_ovr_weighted |
-|  0 | 0.00327563  |   0.0133879  |     0.999855 |      0.99997  | NaiveBayesGaussian | roc_auc_ovr_weighted |
-|  1 | 0.00280261  |   0.0136859  |     0.999928 |      0.999961 | NaiveBayesGaussian | roc_auc_ovr_weighted |
-|  2 | 0.00399041  |   0.0143161  |     0.999928 |      0.999964 | NaiveBayesGaussian | roc_auc_ovr_weighted |
-|  3 | 0.00387073  |   0.013875   |     1        |      0.999945 | NaiveBayesGaussian | roc_auc_ovr_weighted |
-|  4 | 0.00448775  |   0.0132382  |     0.999976 |      0.999947 | NaiveBayesGaussian | roc_auc_ovr_weighted |
+|  0 | 0.00066638  |   0.00962234 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
+|  1 | 0.000560045 |   0.00964904 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
+|  2 | 0.00053978  |   0.00897813 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
+|  3 | 0.00053215  |   0.00898361 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
+|  4 | 0.000531197 |   0.00905848 |     0.5      |      0.5      | Dummy              | roc_auc_ovr_weighted |
+|  0 | 0.0060091   |   0.00973082 |     0.989343 |      1        | DecisionTree       | roc_auc_ovr_weighted |
+|  1 | 0.00540113  |   0.00962996 |     0.99287  |      1        | DecisionTree       | roc_auc_ovr_weighted |
+|  2 | 0.00565171  |   0.00978494 |     0.992901 |      1        | DecisionTree       | roc_auc_ovr_weighted |
+|  3 | 0.00638843  |   0.00968552 |     0.989355 |      1        | DecisionTree       | roc_auc_ovr_weighted |
+|  4 | 0.00725007  |   0.0107234  |     0.998201 |      1        | DecisionTree       | roc_auc_ovr_weighted |
+|  0 | 0.180931    |   0.0151861  |     0.999982 |      1        | RandomForest       | roc_auc_ovr_weighted |
+|  1 | 0.177612    |   0.0148911  |     0.999952 |      1        | RandomForest       | roc_auc_ovr_weighted |
+|  2 | 0.180544    |   0.0151596  |     0.999976 |      1        | RandomForest       | roc_auc_ovr_weighted |
+|  3 | 0.179871    |   0.0149388  |     1        |      1        | RandomForest       | roc_auc_ovr_weighted |
+|  4 | 0.184962    |   0.0160797  |     1        |      1        | RandomForest       | roc_auc_ovr_weighted |
+|  0 | 0.00259185  |   0.0115287  |     0.999855 |      0.99997  | NaiveBayesGaussian | roc_auc_ovr_weighted |
+|  1 | 0.00241446  |   0.0111444  |     0.999928 |      0.999961 | NaiveBayesGaussian | roc_auc_ovr_weighted |
+|  2 | 0.00240588  |   0.0112481  |     0.999928 |      0.999964 | NaiveBayesGaussian | roc_auc_ovr_weighted |
+|  3 | 0.00242925  |   0.0111651  |     1        |      0.999945 | NaiveBayesGaussian | roc_auc_ovr_weighted |
+|  4 | 0.00241566  |   0.0110416  |     0.999976 |      0.999947 | NaiveBayesGaussian | roc_auc_ovr_weighted |

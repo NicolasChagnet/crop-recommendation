@@ -1,13 +1,13 @@
 # Mean results per algorithm
 | name         |   fit_time |   score_time |   test_score |   train_score |
 |:-------------|-----------:|-------------:|-------------:|--------------:|
-| RandomForest |   0.197909 |    0.0171672 |     0.999971 |             1 |
+| RandomForest |   0.180784 |    0.0152511 |     0.999982 |             1 |
 
 # Iterations
 |    |   fit_time |   score_time |   test_score |   train_score | name         | metric               |
 |---:|-----------:|-------------:|-------------:|--------------:|:-------------|:---------------------|
-|  0 |   0.181288 |    0.0143037 |     0.999988 |             1 | RandomForest | roc_auc_ovr_weighted |
-|  1 |   0.20527  |    0.0190055 |     0.99988  |             1 | RandomForest | roc_auc_ovr_weighted |
-|  2 |   0.183202 |    0.0139043 |     0.999988 |             1 | RandomForest | roc_auc_ovr_weighted |
-|  3 |   0.186867 |    0.0194833 |     1        |             1 | RandomForest | roc_auc_ovr_weighted |
-|  4 |   0.232916 |    0.0191391 |     1        |             1 | RandomForest | roc_auc_ovr_weighted |
+|  0 |   0.180931 |    0.0151861 |     0.999982 |             1 | RandomForest | roc_auc_ovr_weighted |
+|  1 |   0.177612 |    0.0148911 |     0.999952 |             1 | RandomForest | roc_auc_ovr_weighted |
+|  2 |   0.180544 |    0.0151596 |     0.999976 |             1 | RandomForest | roc_auc_ovr_weighted |
+|  3 |   0.179871 |    0.0149388 |     1        |             1 | RandomForest | roc_auc_ovr_weighted |
+|  4 |   0.184962 |    0.0160797 |     1        |             1 | RandomForest | roc_auc_ovr_weighted |
