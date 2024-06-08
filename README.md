@@ -3,7 +3,7 @@
 #### -- Project Status: [ On-Hold ]
 
 ## Project Intro/Objective
-his project contains some code meant to analyse the dataset [varshitanalluri/crop-recommendation-dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset) classifying which kind of crop is recommended depending on the nature of the soil and other environmental factors. This is a multiclass classification question.
+This project contains some code meant to analyse the dataset [varshitanalluri/crop-recommendation-dataset](https://www.kaggle.com/datasets/varshitanalluri/crop-recommendation-dataset) classifying which kind of crop is recommended depending on the nature of the soil and other environmental factors. This is a multiclass classification question.
 
 <!--
 ### Collaborators
